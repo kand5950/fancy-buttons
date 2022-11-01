@@ -5,7 +5,7 @@ function CounterButton(props) {
   const handleClick = () => setClickAmount(clickAmount + 1);
   
   return (
-    <button onclick={handleClick} className="CounterButton">
+    <button onClick={handleClick} className="CounterButton">
       You clicked me {clickAmount} times
     </button>
   );
